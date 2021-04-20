@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #result{
+    width: 410px;
+    color: red;
+    text-align: center;
+  }
+
+#nav {
+    background-color: cadetblue;
+    color: white;
+  }
+  
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+  }
+  #nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    transition: background-color 0.2s;
+  }
+  
+  #nav ul li:hover {
+    background-color: black;
+  }
+
+  h1{
+    text-align: center;
+  }
+  img{
+    height: 350px;
+    width: 250px;
+  }
+
+  .images{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .information p{
+    text-align: center;
+  }
+
+  label{
+    display: inline-block;
+    overflow: hidden;
+    width: 200px;
+    font-size: larger;
+  }
+  input{
+    height: 20px;
+    width: 200px;
+    font-size: 15px;
+  }
+
+  input[type="submit"]{
+    height: 30px;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+  #contactform{
+    margin-bottom: 60px;
+  }
+  #contactform div{
+    margin-top: 10px;
+  }
+
+  @media screen and (min-width: 700px) {
+    body{
+      width: 80%;
+      margin: 0 auto;
+    }
+    #nav ul {
+      text-align: right;
+    }
+  
+    #nav ul li {
+      display: inline-block;
+      border-bottom: 0px;
+      border-left: 1px solid black;
+      text-align: left;
+    }
+  
+    figure {
+      width: 500px;
+
+    }
+
+    img{
+      height: 350px;
+      width: 600px;
+    }
+    .images{
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: 500px){
+    img{
+      height: 350px;
+      width: 400px;
+    }
+    .images{
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
